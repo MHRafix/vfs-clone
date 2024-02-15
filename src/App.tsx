@@ -19,7 +19,7 @@ import * as Yup from 'yup';
 import './App.css';
 
 function App() {
-	const [captchaToken, setCaptchaToken] = useState<string>();
+	const [, setCaptchaToken] = useState<string>();
 
 	// form initiate here
 	const {
