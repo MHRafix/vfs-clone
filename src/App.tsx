@@ -266,7 +266,11 @@ function App() {
 							</Button>
 						)}{' '}
 						{active === 3 && (
-							<Button type='submit' disabled={!captchaToken} loading={loading}>
+							<Button
+								type='submit'
+								//  disabled={!captchaToken}
+								loading={loading}
+							>
 								Save
 							</Button>
 						)}
